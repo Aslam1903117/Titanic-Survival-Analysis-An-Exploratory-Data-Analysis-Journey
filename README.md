@@ -13,7 +13,6 @@ This project conducts an Exploratory Data Analysis (EDA) on the Titanic dataset 
 8. [Next Steps](#next-steps)
 9. [Repository Structure](#repository-structure)
 10. [How to Run](#how-to-run)
-11. [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -74,3 +73,23 @@ The dataset used in this project is the Titanic dataset from Kaggle. It contains
 - Explore the impact of interactions between features on survival.
 
 ## Repository Structure
+titanic-survival-analysis/
+│
+├── data/
+│ └── titanic.csv
+│
+├── notebooks/
+│ └── titanic_eda.ipynb
+│
+├── README.md
+└── requirements.txt
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aslam1903117/titanic-survival-analysis.git
+
+pip install -r requirements.txt
+
+jupyter notebook notebooks/titanic_eda.ipynb
